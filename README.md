@@ -6,4 +6,5 @@ Install imagemagick and graphicsmagick libraries via `sudo apt-get install image
 
 #### Run
 Development: `npm run start`
+
 Production: `npm run build && cd dist && node Avaticon.js`
