@@ -4,5 +4,7 @@ node_js:
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install imagemagick graphicsmagick
-install: npm run build
+install:
+  - npm install
+  - npm run build
 script: cd dist && node Avaticon.js
