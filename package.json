@@ -1,0 +1,29 @@
+{
+  "name": "avaticon",
+  "version": "1.0.0",
+  "description": "random avatar generator",
+  "main": "dist/Avaticon.js",
+  "scripts": {
+    "start": "./node_modules/babel-cli/bin/babel-node.js --presets env ./src/Avaticon.js",
+    "build": "node_modules/.bin/babel src/ --presets env --out-dir dist/ --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinaKhorami/Avaticon.git"
+  },
+  "author": "Sina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SinaKhorami/Avaticon/issues"
+  },
+  "homepage": "https://github.com/SinaKhorami/Avaticon#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "gm": "^1.23.1",
+    "lodash": "^4.17.5"
+  }
+}
